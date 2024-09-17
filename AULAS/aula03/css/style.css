@@ -1,3 +1,7 @@
+body{
+    width: 100%;
+    height: 100%;
+}
 p{
     background-color: rgb(255, 255, 255);
     color: yellow;
@@ -34,6 +38,9 @@ a{
 #imagem{
     background-image: url(../img/49428_1F18FCF04B4A8036-1.webp);
     background-size: contain;
-    width: 50vw;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
     background-repeat: no-repeat;
 }
