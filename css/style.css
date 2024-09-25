@@ -2,6 +2,49 @@ html{
     width: 100%;
     height: 100%;
 }
-.container{
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    color: #07498a;
+}
+
+.menu-opcoes ul{
+    font-size: 20px;
+    margin-left: 20px;
+}
+header{
+    position: relative;
+}
+ h1{
+    height: 7vw;
+    margin-left: 15px;
+    margin-right: auto;
+    background-image: url(../img/23-2N.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     
+
+
+ }
+ .menu-opcoes{
+    position: absolute;
+    top: 7px;
+    left: 110px;
+ }
+.menu-opcoes a{
+    color: #003366;
+
+}
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+
+}
+.container h1{
+    
+ 
+    
+    
+
 }
