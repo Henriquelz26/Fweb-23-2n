@@ -1,50 +1,172 @@
-html{
+html {
     width: 100%;
     height: 100%;
 }
-body{
+
+body {
     width: 100%;
     height: 100%;
     font-family: sans-serif;
     color: #07498a;
 }
 
-.menu-opcoes ul{
+.menu-opcoes ul {
     font-size: 20px;
     margin-left: 20px;
 }
-header{
-    position: relative;
-}
- h1{
-    height: 7vw;
-    margin-left: 15px;
+
+.container {
+    width: 90%;
+    margin-left: auto;
     margin-right: auto;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
+
+
+.busca {
+    background-color: darkkhaki;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 230px;
+    margin-right: 10px;
+    float: left;
+}
+
+header h1 {
     background-image: url(../img/23-2N.jpg);
+    height: 80%;
     background-size: contain;
     background-repeat: no-repeat;
-    
+}
 
-
- }
- .menu-opcoes{
+.menu-opcoes {
     position: absolute;
     top: 7px;
-    left: 110px;
- }
-.menu-opcoes a{
+    right: 20px;
+
+}
+
+.menu-opcoes a {
     color: #003366;
 
 }
-.menu-opcoes ul li{
+
+.menu-conteudo ul li {
     display: inline;
-    margin-left: 20px;
-
+    margin-left: 10px;
+    margin-right: 20px;
 }
-.container h1{
-    
- 
-    
-    
+.menu-conteudo li ul{
+    display: none;/*por padrão escondida*/
+}
 
+.menu-conteudo li:hover ul{
+    display:block;/*no mouse aparece*/
+}
+
+.menu-conteudo ul ul li{
+    background-color: #dcdcdc;
+}
+
+.menu-conteudo {
+    background-color: darkkhaki;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 230px;
+    margin-right: 10px;
+
+    float: left;
+}
+
+.menu-conteudo {
+    clear: left;
+}
+
+.painel {
+    margin: 10px 0px;
+    padding: 10px;
+    width: 445px;
+    background-color: indigo;
+}
+
+.blog {
+    float: right;
+    background-color: violet;
+}
+
+.painel li {
+    display: inline-block;
+    width: 150px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+#imagem {
+    width: 10%;
+}
+
+.social a[href*="github.com"] {
+    background-image: url(../img/bi--github.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social a[href*="instagram.com"] {
+    background-image: url(../img/bi--instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+.social a[href*="linkedin.com"] {
+    background-image: url(../img/bi--linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+footer{
+    width: 20%;
+    height: auto;
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    float: left;
+}
+
+.social a{
+    width: 20px;
+    height: 20px;
+}
+
+footer img{
+    width: 60%;
+    height:auto;
+}
+
+.social li{
+    float: left;
+}
+
+header a:before{
+    content: '<'
+}
+
+header a::after{
+    content: '>';
+}
+header a:hover{
+    background-color: aqua;
 }
