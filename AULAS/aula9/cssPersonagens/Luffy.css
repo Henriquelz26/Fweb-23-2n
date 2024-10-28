@@ -1,0 +1,94 @@
+body{
+    background-image: url(../bgIMG/cansei.jpg) ;
+    background-repeat: no-repeat;
+    height:1920px;
+    background-attachment:fixed;
+
+}
+
+#NCanonico{
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.eduardo{
+    margin: 50px 90px 0px 90px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+
+}
+.eduardo #Canonico{
+
+    font-size: 35px;
+    margin-left: 20px;
+    color: black;
+}
+
+.frutaNumList{
+    color: black;
+}
+.caberalho{
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    padding: 10px 15px 10px 15px;
+    z-index: 10;
+    border-bottom:1px solid gray ;
+}
+
+.frutas{
+    display: flex;
+    
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+.itemFruitList{
+    font-size: 22px;
+    margin-left: 20px;
+    color: black;
+    width: 800px;
+    text-align: justify;
+}
+.itemFruitList img{
+    width: 250px;
+    height: 250px;
+}
+
+.links{ 
+    margin: 0px 20px 0px 20px;
+    color: w;
+}
+
+#imagem th{
+    border: 2px solid whitesmoke;
+    text-align: right;
+}
+#imagem table{
+    margin: auto;
+}
+#imagem td{
+    border: 2px solid whitesmoke;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#imagem{
+    align-items: center;
+    justify-content: center;
+    border: 20px solid rgb(178, 2, 2);
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgb(178, 2, 2);
+    border-radius: 2%;
+    margin: 0px 10px 500px 10px;
+}
+#bbimg{
+    border: 2px solid white;
+    border-radius: 2%;
+    margin: 20px;
+    width: 320px;
+    height: 530px;
+}
