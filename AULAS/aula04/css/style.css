@@ -32,7 +32,7 @@ section{
     border-bottom: 2px solid white;
     text-align: left;
 }
-#footer{
+footer{
 display: flex;
 align-items: center;
 justify-content: center;
