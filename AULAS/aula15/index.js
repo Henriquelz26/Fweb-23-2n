@@ -56,7 +56,7 @@ buttonNext.addEventListener("click", (event) => {
 })
 
 function playMusic(){
-    musicafundo.Play()
+    musicafundo.play()
 }
 
 
