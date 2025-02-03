@@ -11,6 +11,7 @@ body {
 }
 
 .menu-opcoes ul {
+    
     font-size: 20px;
     margin-left: 20px;
 }
@@ -45,6 +46,8 @@ header h1 {
 }
 
 .menu-opcoes {
+    display: inline;
+    
     position: absolute;
     top: 7px;
     right: 20px;
@@ -52,12 +55,13 @@ header h1 {
 }
 
 .menu-opcoes a {
+    
     color: #003366;
 
 }
 
 .menu-conteudo ul li {
-    display: inline;
+    
     margin-left: 10px;
     margin-right: 20px;
 }
