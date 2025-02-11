@@ -1,0 +1,23 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color:  rgb(54, 54, 54);
+    font-family: sans-serif;
+}
+
+#imgMufas{
+    width: 70px;
+    height: 70px;
+}
+
+.headBlog{
+    background-color: chocolate;
+}
+
+#poke{
+    width: 70px;
+    height: 70px;
+}

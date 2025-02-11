@@ -5,10 +5,10 @@ const titulo4 = document.querySelector("#objeto4")
 const titulo5 = document.querySelector("#objeto5")
 
 
-
+//fetch pega os dados do arquivo entre parenteses (pode ser uma url tbm)
 fetch("./index.json")
-.then(response => response.json())
-.then(mochila =>{
+.then(response => response.json())//O then vai ser executado qnd tiver um retorno (response no caso) e dps da seta vai ser convertido em json
+.then(mochila =>{  //depois da conversão terei acesso aos dados do json
 
     titulo1.innerHTML = mochila.objeto1;
     titulo2.innerHTML = mochila.objeto2;
